@@ -4,11 +4,7 @@ import { FaHeart } from "react-icons/fa";
 import { RootState } from "../../redux/store";
 import { fetchComments, likeComment } from "../../redux/slices/commentsSlice";
 import noPhoto from "../../assets/noPhoto.png";
-<<<<<<< HEAD
 import s from "./commentContent.module.css";
-=======
-import s from "./CommentContent.module.css";
->>>>>>> 8bd6e3c91f17b61bca9fa5e2cc75c61181fbd107
 import { useTranslation } from "react-i18next";
 import parseData from "../../helpers/parseData";
 

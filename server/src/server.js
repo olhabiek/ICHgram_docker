@@ -16,11 +16,7 @@ connectDB();
 
 const server = http.createServer(app);
 
-<<<<<<< HEAD
 const PORT = process.env.PORT || 3003;
-=======
-const PORT = process.env.PORT || 5006;
->>>>>>> 8bd6e3c91f17b61bca9fa5e2cc75c61181fbd107
 
 app.use(bodyParser.json({ limit: "10mb" }));
 app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
