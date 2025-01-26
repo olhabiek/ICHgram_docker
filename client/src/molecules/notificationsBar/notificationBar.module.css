@@ -1,0 +1,40 @@
+.notificationItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.userAvatar_box {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: var(--border);
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.post-image {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.userName {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.parsedData {
+  color: var(--color-text-grey);
+}
